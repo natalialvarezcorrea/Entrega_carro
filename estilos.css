@@ -1,0 +1,269 @@
+#buton {
+  background-color: red;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 18%;
+  border-radius: 100px;
+}
+
+#contenedor {
+  display: flex;
+  position: relative;
+}
+
+#imagen {
+  width: 90%;
+  height: 30%;
+  background-color: chartreuse;
+  display: flex;
+}
+
+#texto {
+  width: 25%;
+  height: 10%;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  text-align: center;
+  margin-top: 250px;
+}
+#corrido {
+  width: 21%;
+  height: 51%;
+  margin-left: 79%;
+  display: flex;
+  position: absolute;
+}
+#contador {
+  width: 21%;
+  height: 30%;
+  margin-left: 79%;
+  margin-top: 27%;
+  display: flex;
+  position: absolute;
+  font-size: 1.2em;
+  color: violet;
+  font-weight: bold;
+}
+#contadora {
+  width: 21%;
+  height: 20%;
+  margin-left: 79%;
+  margin-top: 29%;
+  display: flex;
+  position: absolute;
+  font-size: 1.2em;
+  color: violet;
+  font-weight: bold;
+}
+
+.tablero {
+  height: 100%;
+  width: 100%;
+  box-align: center;
+}
+
+#fmano {
+  border-radius: 100%;
+  bottom: 15%;
+}
+
+#derecha {
+  border-radius: 100%;
+  background-color: yellow;
+  opacity: 0.5;
+  margin-left: 29%;
+  margin-top: 13%;
+  position: absolute;
+}
+
+#izquierda {
+  border-radius: 100%;
+  background-color: yellow;
+  opacity: 0.5;
+
+  margin-left: 13%;
+  margin-top: 13%;
+  position: absolute;
+}
+
+#cambios {
+  width: 90px;
+  height: 40px;
+  margin-left: 40%;
+  margin-top: 30%;
+  position: absolute;
+  border-radius: 1000px;
+}
+
+#primera {
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+}
+
+#segunda {
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+}
+
+#tercera {
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+}
+
+#cuarta {
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+}
+
+#quinta {
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+}
+
+#sexta {
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+}
+
+#girod {
+  width: 20px;
+  height: 20px;
+  float: left;
+  position: absolute;
+  margin-top: 30px;
+}
+
+#giroi {
+  width: 20px;
+  height: 20px;
+  float: left;
+  position: absolute;
+}
+
+#parada {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  position: relative;
+}
+
+#variables {
+  width: 70%;
+  height: 30px;
+  font-weight: bold;
+  color: black;
+  font-size: 1.1em;
+  align-content: center;
+  text-align: center;
+}
+
+#clut {
+  width: 20px;
+  height: 20px;
+  float: left;
+  position: absolute;
+  margin-top: 60px;
+}
+
+#acelerador {
+  width: 20px;
+  height: 20px;
+  float: left;
+  position: absolute;
+  margin-top: 100px;
+}
+
+#freno {
+  width: 20px;
+  height: 20px;
+  float: left;
+  position: absolute;
+  margin-top: 80px;
+}
+
+#parada {
+  width: 100%;
+  height: 100%;
+  background-color: black !important;
+  opacity: 5;
+}
+
+#frenomano {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-left: 70px;
+}
+
+#neutra {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+  margin-left: 35%;
+  margin-top: 30%;
+}
+#frenomano {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: darkgray;
+  color: white;
+  margin-left: 50%;
+  margin-top: 33%;
+}
+
+#clut {
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  border-radius: 30%;
+  background-color: darkgray;
+  color: white;
+  margin-left: 11%;
+  margin-top: 30%;
+}
+
+#freno {
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  border-radius: 30%;
+  background-color: darkgray;
+  color: white;
+  margin-left: 17%;
+  margin-top: 30%;
+}
+
+#acelerador {
+  width: 40px;
+  height: 60px;
+  position: absolute;
+  border-radius: 30%;
+  background-color: darkgray;
+  color: white;
+  margin-left: 23%;
+  margin-top: 30%;
+}
+
+#dd {
+  width: 30px;
+  height: 34px;
+}
+
+#ii {
+  width: 30px;
+  height: 34px;
+}
